@@ -117,7 +117,7 @@ int main(void)
 **5.After coding, you have to compile your code with libftprintf.a library like an example below**
 
 ```bash
-gcc main.c libftprintf.a && ./a.out
+gcc main.c libftprintf.a -I./sources && ./a.out
 # Done :)
 ```
 
